@@ -217,18 +217,18 @@
                 'products' => [
                     [
                         'img_uri' => '/catalog/electric_scooters/1.jpg',
-                        'name' => 'Xiaomi Mijia Electric Scooter m187 Black',
-                        'price' => 1000,
+                        'name' => 'Xiaomi Mijia Electric Scooter m187 Black черный',
+                        'price' => '20 480',
                     ],
                     [
                         'img_uri' => '/catalog/electric_scooters/2.jpg',
-                        'name' => 'Xiaomi Mijia Electric Scooter m187 Black',
-                        'price' => 1000,
+                        'name' => 'Электросамокат KUGOO S4 (8800mAh)',
+                        'price' => '13 480',
                     ],
                     [
                         'img_uri' => '/catalog/electric_scooters/3.jpg',
-                        'name' => 'Xiaomi Mijia Electric Scooter m187 Black',
-                        'price' => 1000,
+                        'name' => 'Электросамокат SUBOR D9',
+                        'price' => '11 790',
                     ],
                 ],
             ],
@@ -239,17 +239,17 @@
                     [
                         'img_uri' => '/catalog/hoverboards/1.jpg',
                         'name' => 'Гироскутер Smart Balance 10 Красный',
-                        'price' => 6500,
+                        'price' => '6 500',
                     ],
                     [
                         'img_uri' => '/catalog/hoverboards/2.jpg',
                         'name' => 'Гироскутер Smart Balance Premium 10 Цветные Молнии',
-                        'price' => 10990,
+                        'price' => '10 990',
                     ],
                     [
                         'img_uri' => '/catalog/hoverboards/3.jpg',
                         'name' => 'Гироскутер Smart Balance SUV Чёрная Молния 10.5 Premium PRO',
-                        'price' => 8590,
+                        'price' => '8 590',
                     ],
                 ],
             ],
@@ -260,17 +260,17 @@
                     [
                         'img_uri' => '/catalog/segways/1.jpg',
                         'name' => 'Сигвей Xiaomi Ninebot mini Pro Black (Чёрный)',
-                        'price' => 31480,
+                        'price' => '31 480',
                     ],
                     [
                         'img_uri' => '/catalog/segways/2.jpg',
                         'name' => 'Сигвей Xiaomi Ninebot mini Pro White (Белый)',
-                        'price' => 32480,
+                        'price' => '32 480',
                     ],
                     [
                         'img_uri' => '/catalog/segways/3.jpg',
                         'name' => 'Сигвей Xiaomi Ninebot mini White (Белый)',
-                        'price' => 14790,
+                        'price' => '14 790',
                     ],
                 ],
             ],
