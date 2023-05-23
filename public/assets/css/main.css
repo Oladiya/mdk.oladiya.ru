@@ -1,0 +1,94 @@
+body {
+    background-color: lightgreen;
+}
+
+main {
+    width: 600px;
+    max-width: 80%;
+    background-color: lightgrey;
+    margin: 40px auto 40px auto;
+    padding: 1px 20px 10px 20px;
+    box-shadow: 5px 4px 8px 8px darkgray;
+
+}
+
+header {
+    color: #fff;
+    background-color: black;
+}
+
+.theme-list {
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    padding: 0 0;
+}
+
+.theme-item {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 82px;
+    padding: 5px;
+    border-right: 2px solid white;
+}
+
+.theme-item:hover {
+    background-color: #333333;
+    overflow: visible;
+    width: auto;
+}
+
+.theme-item:hover ul {
+    display: inherit;
+}
+
+.work-list {
+    list-style-type: none;
+    position: absolute;
+    background-color: gray;
+    display: none;
+    padding: 2px;
+}
+
+.work-item {
+    min-width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.work-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 0) {
+    body {
+        margin: 0;
+    }
+
+    .theme-list {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .theme-item {
+        overflow: visible;
+        width: auto;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid white;
+        white-space: normal;
+    }
+
+    .work-list {
+        position: relative;
+    }
+}
+
+@media (max-width: 750px) {
+    main {
+        min-width: 80%;
+    }
+}
