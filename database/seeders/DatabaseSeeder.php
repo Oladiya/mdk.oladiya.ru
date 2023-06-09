@@ -147,15 +147,6 @@ class DatabaseSeeder extends Seeder
             'mp_verstka_html_theme_id' => '5',
         ]);
 
-//        PizzeriaUser::factory(5)->create();
-
-        PizzeriaProductType::factory()->create(['name' => 'Пицца']);
-        PizzeriaProductType::factory()->create(['name' => 'Комбо']);
-        PizzeriaProductType::factory()->create(['name' => 'Закуски']);
-        PizzeriaProductType::factory()->create(['name' => 'Десерты']);
-        PizzeriaProductType::factory()->create(['name' => 'Напитки']);
-        PizzeriaProductType::factory()->create(['name' => 'Другие товары']);
-
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([
