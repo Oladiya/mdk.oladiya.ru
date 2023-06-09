@@ -1,9 +1,6 @@
 <?php
 
 use App\Http\Controllers\MDK1Controller;
-use App\Http\Controllers\PizzeriaController;
-use App\Http\Controllers\PizzeriaOrderController;
-use App\Http\Controllers\PizzeriaUserController;
 use Illuminate\Support\Facades\Route;
 
 /*
