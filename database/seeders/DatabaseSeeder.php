@@ -5,8 +5,6 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\MpVerstkaHtmlTheme;
 use App\Models\MpVerstkaHtmlWork;
-use App\Models\PizzeriaProductType;
-use App\Models\PizzeriaUser;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
