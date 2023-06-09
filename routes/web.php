@@ -1,9 +1,6 @@
 <?php
 
 use App\Http\Controllers\MDK1Controller;
-use App\Http\Controllers\PizzeriaController;
-use App\Http\Controllers\PizzeriaOrderController;
-use App\Http\Controllers\PizzeriaUserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,14 +22,6 @@ Route::prefix('05-01')->name('05-01.')->group(function () {
 
     Route::get('/mp-verstka-html/{id}', [MDK1Controller::class, 'show'])->name('mdk1');
     Route::get('/mp-verstka-html', [MDK1Controller::class, 'index'])->name('mdk1.index');
-
-    Route::prefix('pizzeria')->name('pizzeria.')->group(function () {
-        Route::get('/', [PizzeriaController::class, 'index'])->name('home');
-        Route::get('/orders', [PizzeriaOrderController::class, 'index'])->name('order.index');
-        Route::get('/orders/{id}', [PizzeriaOrderController::class, 'show'])->name('order.show');
-        Route::post('/orders', [PizzeriaOrderController::class, 'store'])->name('order.store');
-        Route::get('/users', [PizzeriaUserController::class, 'store']);
-    });
 
     Route::prefix('media')->name('media.')->group(function () {
         Route::get('/', function () {

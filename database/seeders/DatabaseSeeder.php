@@ -5,8 +5,6 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\MpVerstkaHtmlTheme;
 use App\Models\MpVerstkaHtmlWork;
-use App\Models\PizzeriaProductType;
-use App\Models\PizzeriaUser;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -146,15 +144,6 @@ class DatabaseSeeder extends Seeder
             'title' => '',
             'mp_verstka_html_theme_id' => '5',
         ]);
-
-//        PizzeriaUser::factory(5)->create();
-
-        PizzeriaProductType::factory()->create(['name' => 'Пицца']);
-        PizzeriaProductType::factory()->create(['name' => 'Комбо']);
-        PizzeriaProductType::factory()->create(['name' => 'Закуски']);
-        PizzeriaProductType::factory()->create(['name' => 'Десерты']);
-        PizzeriaProductType::factory()->create(['name' => 'Напитки']);
-        PizzeriaProductType::factory()->create(['name' => 'Другие товары']);
 
         // \App\Models\User::factory(10)->create();
 
