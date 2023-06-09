@@ -10,7 +10,7 @@ class MDK1Controller extends Controller
 {
     public function index() {
         $titles = MpVerstkaHtmlThemeResource::collection(MpVerstkaHtmlTheme::with('works')->get());
-        return view('mp-verstka-html.index', compact('titles'));
+        return view('05-01.mp-verstka-html.index', compact('titles'));
     }
 
     public function show($id)
@@ -25,6 +25,6 @@ class MDK1Controller extends Controller
             return response(view('not-found'), 404);
         }
 
-        return view('mp-verstka-html.index', compact(['titles', 'work']));
+        return view('05-01.mp-verstka-html.index', compact(['titles', 'work']));
     }
 }

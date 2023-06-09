@@ -9,6 +9,12 @@
 </head>
 <body>
     <table border="2">
+        <tr>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Телефон</th>
+            <th>Email</th>
+        </tr>
         @foreach($db as $data)
             <tr>
                 <td>
@@ -33,8 +39,8 @@
             <input type="text" name="name">
             <input type="text" name="tel">
             <input type="email" name="email">
+            <button type="submit">Добавить</button>
         </div>
-        <button type="submit">Добавить</button>
     </form>
     <style>
         .form input { width: 75px; }

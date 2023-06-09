@@ -19,9 +19,9 @@
                 </div>
                 <nav>
                     <ul>
-                        <li @if($cur === 0) class="current" @endif><a href="{{ route('media.home') }}">Главная</a></li>
-                        <li @if($cur === 1) class="current" @endif><a href="{{ route('media.about') }}">О нас</a></li>
-                        <li @if($cur === 2) class="current" @endif><a href="{{ route('media.services') }}">Услуги</a></li>
+                        <li @if($cur === 0) class="current" @endif><a href="{{ route('05-01.media.home') }}">Главная</a></li>
+                        <li @if($cur === 1) class="current" @endif><a href="{{ route('05-01.media.about') }}">О нас</a></li>
+                        <li @if($cur === 2) class="current" @endif><a href="{{ route('05-01.media.services') }}">Услуги</a></li>
                     </ul>
                 </nav>
             </div>

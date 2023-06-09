@@ -1,4 +1,4 @@
-@extends('mp-verstka-media.layouts.main')
+@extends('05-01.mp-verstka-media.layouts.main')
 
 @section('title')
     О нас
